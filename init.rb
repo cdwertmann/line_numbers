@@ -6,6 +6,6 @@ Redmine::Plugin.register :line_numbers do
   author 'Christoph Dwertmann'
   description 'Enables line numbers in code blocks and adds toggle button'
   version '1.0.0'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
+  url 'https://github.com/cdwertmann/line_numbers'
+  author_url 'https://github.com/cdwertmann'
 end
