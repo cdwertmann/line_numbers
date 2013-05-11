@@ -3,8 +3,8 @@
 class LineNumbersHooks < Redmine::Hook::ViewListener
   def view_layouts_base_body_bottom(context = { })
     return "<script>
-$('.CodeRay').append('<button>Toggle Line Numbers</button>');
-$('button').click(function () {
+$('.CodeRay').append('<button class=line-toggle>Toggle Line Numbers</button>');
+$('.line-toggle').click(function () {
   $('.line-numbers').toggle();
 });
 </script>"
