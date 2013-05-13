@@ -8,4 +8,11 @@ Redmine::Plugin.register :line_numbers do
   version '1.0.0'
   url 'https://github.com/cdwertmann/line_numbers'
   author_url 'https://github.com/cdwertmann'
+  settings({
+     :partial => 'line_numbers/settings',
+     :default => {
+      'show_line_numbers' => "true",
+      'show_line_numbers_toggle' => "true"
+      }
+  })
 end
