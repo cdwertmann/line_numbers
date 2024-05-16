@@ -1,3 +1,6 @@
+module MonkeyPatch
+end
+
 # patch to enable CodeRay line numbering
 module Redmine
   module SyntaxHighlighting

@@ -1,5 +1,5 @@
-require_dependency 'line_numbers_hooks'
-require_dependency 'monkey_patch'
+require File.dirname(__FILE__) + '/lib/line_numbers_hooks.rb'
+require File.dirname(__FILE__) + '/lib/monkey_patch.rb'
 
 Redmine::Plugin.register :line_numbers do
   name 'Line Numbers plugin'
